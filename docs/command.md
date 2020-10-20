@@ -1,9 +1,15 @@
-### Your standard command
+In this section you can find so called `--flags` which will allow you e.g. to run WtP on a cluster or deactivate some tools or run just the identification process ow WtP   
+What each flag will do is explained below:  
 
-`nextflow run replikation/What_the_Phage --help` will show you this page in your Terminal
-In this section we explain functions of WtP and how you can alter the execution comman to your specific inquiry:
+**Note:** The order of flags does not matter  
 
- The `basic command` can look like this:
+`nextflow run replikation/What_the_Phage --help` will show you basically this page in your Terminal
+
+-----------------------------------------
+
+### The standard command
+
+The `basic command` can look like this:
 
 ```bash
 nextflow run \                    # calling the workflow
@@ -16,10 +22,12 @@ nextflow run \                    # calling the workflow
 
 This command will result in the [standard output of WtP](results.md)
 
-### Advanced execution command
 
+We will now explain how to change the different parameters when using WtP
 
-* First of all: The order of flags does not matter
+-----------------------------------------
+
+## Advanced execution command
 
 * e.g.:
 
@@ -35,6 +43,7 @@ nextflow run replikation/What_the_Phage \
   --ma
 ```
 
+-----------------------------------------
 
 ### Inputs
 * Input examples:
@@ -45,12 +54,13 @@ nextflow run replikation/What_the_Phage \
 --fastq /path/to/phage-read.fastq   # path to your fastq-file
 --fastq '/path/to/*.fastq'          # path to all .fastq files in a dir
 ```
-* the `fastq` input is currently experimental
+* the `fastq` input is currently experimental  
 
+-----------------------------------------
 
 ### Workflow control
 * By default: all included phage identification tools are activated
-* but, you can off tools (check `--help` for more)
+* but, you can turn off tools (check `--help` for more)
 
 ```bash
     --dv             #   deactivates deepvirfinder
@@ -63,25 +73,30 @@ nextflow run replikation/What_the_Phage \
     --vn             #   deactivates virnet
     --vs             #   deactivates virsorter
     --ph             #   deactivates phigaro 
+    --vs2            #   deactivates virsorter2
     --identify       #   only phage identification, skips analysis
     --annotate       #   only annotation, skips phage identification
 ```
 
-* min size of contigs for identification
-
+* minimal size of contigs for identification
+  * sequences below the default size: 1500bp will not be analyzed
 ```bash
---filter         #   min contig size [bp] to analyse
+--filter             #   minimal contig size [bp] to analyse e.g. --filter 2000
 ```
 
+-----------------------------------------
+
 ### Profiles
-1. Choose the environment: local, slurm, lsf or ebi
-2. Choose the engine: docker or singularity
+1. Choose the environment: `local`, `slurm`, `lsf` or `ebi`
+2. Choose the engine: `docker` or `singularity`
 * examples:
 ```bash
 -profile local,docker
 -profile local,singularity
 -profile lsf,docker
 ```
+
+-----------------------------------------
 
 ### Release candidate
 * A release candidate is a [released version of WtP](https://github.com/replikation/What_the_Phage/releases) which ensures proper functionality
@@ -92,8 +107,10 @@ nextflow run replikation/What_the_Phage \
     * WtP only downloads a database if it's missing, it is not "auto-updating" them
 * add this flag to your command and a specific release is used instead
 ```bash
--r v0.8.0
+-r v0.9.0
 ```
+
+-----------------------------------------
 
 ### Data handling
 
@@ -107,15 +124,14 @@ nextflow run replikation/What_the_Phage \
 --output results          # path of the outdir, default './results'
 ```
 
+---------------------------------------------
 
 ### Pre-download for Offline-mode
 
 * `--setup` skips analysis and just downloads all databases and containers
 * Needs roughly 30 GB storage for databases, excluding programs
 
-```bash
-nextflow run replikation/What_the_Phage --setup -r v0.8.0
-```
+`nextflow run replikation/What_the_Phage --setup -r v0.9.0`
 
 * you can change the database download location via (--databases)
 * make sure that you specify the database location when executing WtP, if you change the default path

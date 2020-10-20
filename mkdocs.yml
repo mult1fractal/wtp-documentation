@@ -8,26 +8,21 @@ nav:
         - Singularity: installation/singularity.md
         - Quick Installation: installation/quick_installation.md
     - Test the Workflow: test.md
-    - Execution of WtP: command.md
+    - Running WtP: command.md
     - Example Results: results.md
+    - Troubleshooting and common errors: troubleshooting.md
     - About: about.md
-theme:
-    name: 'material'
-    custom_dir: 'theme'
-    palette:
-    primary: 'green'
-    accent: 'light green'
-      
-    extra_css:
-    - stylesheets/dark_theme.css
-    - stylesheets/codehilite.css
-highlightjs: true
-hljs_languages:
+theme: 
+
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
     - yaml
     - rust
     - shell
-    - docker
-    - nextflow
+
+
+
    # extra_css:
    #     - stylesheets/dark_theme.css
    #     - stylesheets/codehilite.css
