@@ -1,3 +1,5 @@
+In this section I (mult1fractal) have some troubleshooting advice with problems I faced when I started with bioinformatics and testing with WtP
+
 # Problems with storage while running WtP
 
 WtP produces temporary data.
@@ -15,10 +17,7 @@ With `sudo rm -r / work *` they can become demanding.
 -work-dir /path/to/dir    # defines the path where nextflow writes temporary files, default: '/tmp/nextflow-phage-$USER'
 ```
 
-
-
-
- Pathing of the database
+-----------------------------------
 
 ## Chromomap issues: terminated with an error exit status (1)
 
@@ -30,13 +29,16 @@ Bei der erstellung der Genkarte kann es manchmal zu folgendem Error-code kommen:
 [4e/57d82d] NOTE: Process 'phage_annotation_MSF:chromomap (1)' terminated with an error exit status (1) -- Execution is retried (1)
 ```
 
-The workflow works as intended. we included a few "failsafe" processes for chromomap, so if one plotting approach fails it retries another approach to render it,  
+The workflow works as intended. We included a few "failsafe" processes for chromomap, so if one plotting approach fails it retries another approach to render it,  
 thus you get the fail but the retry will work.
+In the end you will get the result
 
+-----------------------------------
 
+## Singularity image problems 
 
-## singularity probleme mit images 
-die nicht richtig gebaut werden --> setup zuerst machen und  dann wtp laufen lassen
-
+Sometimes the singularity runs fail because some singularity images are failing in their build process:   
+* you can retry the the execution command
+* or you can run the [Pre-download for Offline-mode](command.md) and start WtP with the 'preloaded' images
 
 

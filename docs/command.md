@@ -1,37 +1,15 @@
-In this section you can find so called `--flags` which will allow you e.g. to run WtP on a cluster or deactivate some tools or run just the identification process ow WtP   
-What each flag will do is explained below:  
-
-**Note:** The order of flags does not matter  
-
-The execution command contains 2 parts:
+# Command overview
+The execution command:
 
 **Part 1**  
 `nextflow run replikation/What_the_Phage` : calling the workflow
 
 **Part 2**  
-`--flag` : telling WtP what to analyze and how
+`--flag` : telling WtP what to analyze and how  
 
------------------------------------------
+**Note:** The order of flags does not matter
 
-### The standard command
-
-The `basic command` can look like this:
-
-```bash
-nextflow run \                    # calling the workflow
-  replikation/What_the_Phage \    # WtP Git-Repo
-  --fasta /path/to/file.fa \      # provide a fasta-file as input
-  --cores 8 \                     # number of cores you want to use
-  -profile local,docker           # choose the environment:local and docker
-  -r v0.9.0                       # WtP release version
-```
-
-This command will result in the [standard output of WtP](results.md)
-
-
-We will now explain how to change the different parameters when using WtP
-
------------------------------------------
+**Bold-flags** are mandatory for WtP to work
 
 ## Flag overview
 |Flag|simple explaination|
@@ -61,7 +39,16 @@ We will now explain how to change the different parameters when using WtP
 | --identify   |  only phage identification, skips analysis
 | --annotate   |  only annotation, skips phage identification
 
-**Bold-flags** are mandatory for WtP to work
+The `basic command` can look like this:
+
+```bash
+nextflow run \                    # calling the workflow
+  replikation/What_the_Phage \    # WtP Git-Repo
+  --fasta /path/to/file.fa \      # provide a fasta-file as input
+  --cores 8 \                     # number of cores you want to use
+  -profile local,docker           # choose the environment:local and docker
+  -r v0.9.0                       # WtP release version
+```
 
 -----------------------------------------
 
@@ -83,7 +70,7 @@ nextflow run replikation/What_the_Phage \
 
 -----------------------------------------
 
-### Inputs
+## Inputs
 * Input examples:
   * wildcards need single quotes around the path (`'`)
 ```bash
@@ -96,7 +83,7 @@ nextflow run replikation/What_the_Phage \
 
 -----------------------------------------
 
-### Workflow control
+## Workflow control
 * By default: all included phage identification tools are activated
 * but, you can turn off tools (check `--help` for more)
 
@@ -124,7 +111,7 @@ nextflow run replikation/What_the_Phage \
 
 -----------------------------------------
 
-### Profiles
+## Profiles
 1. Choose the environment: `local`, `slurm`, `lsf` or `ebi`
 2. Choose the engine: `docker` or `singularity`
 * examples:
@@ -136,7 +123,7 @@ nextflow run replikation/What_the_Phage \
 
 -----------------------------------------
 
-### Release candidate
+## Release candidate
 * A release candidate is a [released version of WtP](https://github.com/replikation/What_the_Phage/releases) which ensures proper functionality
 * version control ensures reproducibility as each tools version is also "locked" within the release candidate
   * databases have no automatic version control (they are downloaded from the source)
@@ -150,7 +137,7 @@ nextflow run replikation/What_the_Phage \
 
 -----------------------------------------
 
-### Data handling
+## Data handling
 
 * WtP handles everything by default
 * If you need to change paths use the following commands
@@ -164,7 +151,7 @@ nextflow run replikation/What_the_Phage \
 
 ---------------------------------------------
 
-### Pre-download for Offline-mode
+## Pre-download for Offline-mode
 
 * `--setup` skips analysis and just downloads all databases and containers
 * Needs roughly 30 GB storage for databases, excluding programs
