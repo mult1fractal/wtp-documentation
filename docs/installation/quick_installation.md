@@ -1,10 +1,8 @@
 ## Copy and paste
 **for local, docker usage**  
 
-* "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required]
-
-
-och irgendwo adden das wir das nicht recommenden da eine ältere version von docker installiert wird und auch adden das dies für "single computer anwendung ist
+* "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required]  
+* though we do not recommend this installation-process(an older version of Docker will be installed. This installation method is not suitable for a cluster) it is probbably the fastest way to get WtP to run
 
 ```bash
 sudo apt-get update
