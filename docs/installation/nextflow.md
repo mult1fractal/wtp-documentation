@@ -1,3 +1,5 @@
+* open your terminal by pressing `STRG` + `ALT` + `T`
+
 # Java run time for Nextflow
 
 ```bash

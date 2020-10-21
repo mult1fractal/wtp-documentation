@@ -3,7 +3,13 @@ What each flag will do is explained below:
 
 **Note:** The order of flags does not matter  
 
-`nextflow run replikation/What_the_Phage --help` will show you basically this page in your Terminal
+The execution command contains 2 parts:
+
+**Part 1**  
+`nextflow run replikation/What_the_Phage` : calling the workflow
+
+**Part 2**  
+`--flag` : telling WtP what to analyze and how
 
 -----------------------------------------
 
@@ -27,7 +33,39 @@ We will now explain how to change the different parameters when using WtP
 
 -----------------------------------------
 
-## Advanced execution command
+## Flag overview
+|Flag|simple explaination|
+|-|-|
+| --help       |  will show you this page in your terminal
+| **--fasta**  |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'
+| --fastq      |  /path/to/phage-read.fastq *or*  '/path/to/*.fastq'
+| --filter     |  e.g. 1500
+| **-profile** |  local,docker *or* local,singularity *or* lsf,docker
+| **-r**       |  v0.9.0
+| --workdir    |  /path/to/dir
+| --database   |  /path/to/dir
+| --cachedir   |  /path/to/dir
+| --output     |  e.g. results
+| --cores      |  e.g. 10 
+| --dv         |  deactivates deepvirfinder
+| --ma         |  deactivates marvel
+| --mp         |  deactivates metaphinder
+| --pp         |  deactivates PPRmeta
+| --sm         |  deactivates sourmash
+| --vb         |  deactivates vibrant
+| --vf         |  deactivates virfinder
+| --vn         |  deactivates virnet
+| --vs         |  deactivates virsorter
+| --ph         |  deactivates phigaro 
+| --vs2        |  deactivates virsorter2
+| --identify   |  only phage identification, skips analysis
+| --annotate   |  only annotation, skips phage identification
+
+**Bold-flags** are mandatory for WtP to work
+
+-----------------------------------------
+
+## Detailed Flag explaination
 
 * e.g.:
 

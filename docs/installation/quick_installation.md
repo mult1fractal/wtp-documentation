@@ -2,6 +2,7 @@
 **for local, docker usage**  
 
 * "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required]
+* open your terminal by pressing `STRG` + `ALT` + `T`
 
 ```bash
 sudo apt-get update

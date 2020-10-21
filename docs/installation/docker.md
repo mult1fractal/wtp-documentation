@@ -1,6 +1,6 @@
 # Docker installation
 
-* to install the most recent version we recommendend in following this [Docker installation](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce)
+* to install the most recent version we recommend the following [Docker installation](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce)
 * they also describe how to install docker on debian, or other distros
 * in the following section we describe how to install docker on ubuntu
 
