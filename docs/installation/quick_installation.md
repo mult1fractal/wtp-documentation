@@ -2,7 +2,9 @@
 **for local, docker usage**  
 
 * "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required]
-* open your terminal by pressing `STRG` + `ALT` + `T`
+
+
+och irgendwo adden das wir das nicht recommenden da eine ältere version von docker installiert wird und auch adden das dies für "single computer anwendung ist
 
 ```bash
 sudo apt-get update

@@ -14,8 +14,7 @@ $ sudo apt-get update && \
 
 
 ### Install Golang
-This is one of several ways to install and configure golang. The CentOS/RHEL instructions above already installed it so this method is not needed there.
-
+This is one of several ways to install and configure golang.  
 First, download the Golang archive to /tmp, then extract the archive to /usr/local.
 
 **NOTE:** if you are updating Go from a older version, make sure you remove /usr/local/go before reinstalling it.
@@ -36,7 +35,6 @@ source ~/.bashrc
 ```
 
 ### Install golangci-lint  
-This is an optional (but highly recommended!) step. To ensure consistency and to catch certain kinds of issues early, we provide a configuration file for golangci-lint. Every pull request must pass the checks specified there, and these will be run automatically before attempting to merge the code. If you are modifying Singularity and contributing your changes to the repository, it's faster to run these checks locally before uploading your pull request.
 
 In order to install golangci-lint, you can run:
 
