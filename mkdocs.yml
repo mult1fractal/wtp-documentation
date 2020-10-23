@@ -17,4 +17,4 @@ nav:
     - Troubleshooting: troubleshooting.md
 theme: 
   name: readthedocs  
-  navigation_depth: 1
+  navigation_depth: 3
