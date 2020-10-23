@@ -11,7 +11,8 @@ nav:
           - Singularity: installation/Engine/singularity.md 
     - Test WtP: test.md
     - Workflow execution:
-        - WtP commands: Workflow-execution/command.md
+        - Overview: Workflow-execution/Overview.md
+        - Commands: Workflow-execution/commands.md
         - Explaining the Results: Workflow-execution/results.md
     - Troubleshooting: troubleshooting.md
 theme: readthedocs
