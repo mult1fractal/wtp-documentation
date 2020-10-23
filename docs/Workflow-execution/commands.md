@@ -1,4 +1,4 @@
-## Detailed Flag explaination
+# Detailed Flag explaination
 
 * e.g.:
 

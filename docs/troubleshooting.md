@@ -40,6 +40,6 @@ In the end you will get the result
 
 Sometimes the singularity runs fail because some singularity images are failing in their build process:   
 * you can retry the the execution command
-* or you can run the [Pre-download for Offline-mode](Workflow-execution/command.md) and start WtP with the 'preloaded' images
+* or you can run the [Pre-download for Offline-mode](Workflow-execution/commands.md) and start WtP with the 'preloaded' images
 
 
