@@ -4,9 +4,12 @@ on:
     branches:
       - master
 jobs:
-  container:
+  deploy:
     runs-on: ubuntu-latest
-    container: minidocks/mkdocs:1.0
     steps:
       - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-rtd-dropdown
       - run: mkdocs gh-deploy --force
