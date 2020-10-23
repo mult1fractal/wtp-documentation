@@ -6,7 +6,7 @@
 
 ## For Ubuntu
 * we are using this [installation guide](https://docs.docker.com/v17.09/engine/installation/linux/docker-ce/ubuntu/#install-docker-ce) but shorten it to the bare minimum for you
-* so we skip a few steps that are not neccessary
+* so we skip a few steps that are not necessary
 
 ### Setting up the repository
 Before you install Docker Engine for the first time on a new host machine, you need to set up the Docker repository. Afterward, you can install and update Docker from the repository (via `apt update` and `apt upgrade`).

@@ -17,7 +17,7 @@ $ sudo apt-get update && \
 This is one of several ways to install and configure golang.  
 First, download the Golang archive to /tmp, then extract the archive to /usr/local.
 
-**NOTE:** if you are updating Go from a older version, make sure you remove /usr/local/go before reinstalling it.
+**NOTE:** if you are updating Go from an older version, make sure you remove /usr/local/go before reinstalling it.
 
 ```bash
 export VERSION=1.14.9 OS=linux ARCH=amd64  # change this as you need
