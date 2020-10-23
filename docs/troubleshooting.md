@@ -1,6 +1,7 @@
+## FAQ
 In this section I (mult1fractal) have some troubleshooting advice with problems I faced when I started with bioinformatics and testing with WtP
 
-# Problems with storage while running WtP
+### Problems with storage while running WtP
 
 WtP produces temporary data.
 Depending on your input file, this temporary data can take up a lot of GB of storage space after several WtP runs
@@ -19,7 +20,7 @@ With `sudo rm -r / work *` they can become demanding.
 
 -----------------------------------
 
-## Chromomap issues: terminated with an error exit status (1)
+### Chromomap issues: terminated with an error exit status (1)
 
 In the Annotation process of WtP, wird eine Genkarte mit den annotierten/gefundenen Genen erstellt
 Bei der erstellung der Genkarte kann es manchmal zu folgendem Error-code kommen:
@@ -35,10 +36,10 @@ In the end you will get the result
 
 -----------------------------------
 
-## Singularity image problems 
+### Singularity image problems 
 
 Sometimes the singularity runs fail because some singularity images are failing in their build process:   
 * you can retry the the execution command
-* or you can run the [Pre-download for Offline-mode](command.md) and start WtP with the 'preloaded' images
+* or you can run the [Pre-download for Offline-mode](Workflow-execution/command.md) and start WtP with the 'preloaded' images
 
 

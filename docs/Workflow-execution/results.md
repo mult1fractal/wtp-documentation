@@ -62,7 +62,7 @@ execution_timeline.html:
 
 `upsetr.svg`  
 
-![plot](figures/upsetr.png)
+![plot](upsetr.png)
 
 This chart (UpSetR plot) quantifies the result-intersections of the phage identification tools, similar to a Venn diagram. The amount of positive phage-sequences identified by each tool is represented on the left barplot in blue. The dot plot shows via line connection(s) which of the tools identified the exact same positive phage sequences. The amount of these shared matches is quantified as a barplot above each corresponding dot pattern.
 
@@ -70,16 +70,19 @@ This chart (UpSetR plot) quantifies the result-intersections of the phage identi
 
 `sample_overview-small.html, sample_overview-large.html`
 
-![chromomap results](figures/chromomap-small.png)    
-![chromomap results](figures/chromomap-large.png)
+![chromomap results](chromomap-small.png)    
+![chromomap results](chromomap-large.png)
 
 The graphical output of the annotation shows an overview of the individual loci of the predicted ORFs and the corresponding genes in the fasta sequences identified as phages. For a better visibility, we have chosen 4 categories tail, capsid, baseplate, and other. This output can be used to verify the identified sequences (if the predicted sequences make sense or not). The annotation results are additionally plotted in an interactive HTML-file and are available as a file for further analysis.
+
+For an interactive chromamap you can check out the following link:
+[chromomap results](https://replikation.github.io/What_the_Phage/index.html)
 
 --------------------------------------------------
 
 `phage_distribution.pdf`
 
-![phage-distribution](figures/phage-distribution.png)
+![phage-distribution](phage-distribution.png)
 
 Heatmap for phage sequences visualising the tool agreements per phage positive contig.
 

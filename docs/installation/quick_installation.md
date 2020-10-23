@@ -1,4 +1,3 @@
-## Copy and paste
 **for local, docker usage**  
 
 * "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required]  

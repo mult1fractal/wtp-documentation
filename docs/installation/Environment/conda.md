@@ -1,5 +1,11 @@
-## Setting up Conda 
+WtP can be executed in different environments (workload management platforms)
+> local  
+> slurm  
+> lsf  
+> ebi  
+> Conda
 
+**Conda:**
 ```bash
 conda create -n wtp nextflow==20.07.01 singularity==3.6
 conda activate wtp

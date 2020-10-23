@@ -1,19 +1,17 @@
 site_name: What the Phage
 nav:
     - Home: index.md
-    - Get Started:  get_started.md
     - Installation:
-        - Nextflow: installation/nextflow.md
-        - Docker: installation/docker.md
-        - Singularity: installation/singularity.md
-        - Conda: installation/conda.md
         - Quick Installation: installation/quick_installation.md
-    - Test the Workflow: test.md
-    - Running WtP: command.md
-    - Example Results: results.md
-    - Troubleshooting and common errors: troubleshooting.md
-    - About: about.md
+        - Nextflow: installation/nextflow.md
+        - Environment:
+          - Local/Cluster: installation/Environment/conda.md 
+        - Engine:
+          - Docker: installation/Engine/docker.md
+          - Singularity: installation/Engine/singularity.md 
+    - Test WtP: test.md
+    - Workflow execution:
+        - WtP commands: Workflow-execution/command.md
+        - Explaining the Results: Workflow-execution/results.md
+    - Troubleshooting: troubleshooting.md
 theme: readthedocs
-
-
-#copyright: ©2020 nanozoo & mike
