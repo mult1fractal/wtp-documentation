@@ -13,15 +13,8 @@ nav:
     - Example Results: results.md
     - Troubleshooting and common errors: troubleshooting.md
     - About: about.md
-theme: 
-  palette:
-    scheme: default
-    primary: blue grey
-    accent: orange
-  font:
-    text: Roboto
-    code: Roboto Mono
-  name: mkdocs
+theme: readthedocs
+
   highlightjs: true
   hljs_languages:
     - yaml
