@@ -13,6 +13,7 @@ The execution command:
  
 ## Flag overview  
   
+  
 |Flag          |simple explanation                                    |
 |--------------|------------------------------------------------------|
 | --help       |  will show you this page in your terminal            |
@@ -39,7 +40,8 @@ The execution command:
 | --vs2        |  deactivates virsorter2                              |
 | --identify   |  only phage identification, skips analysis           |
 | --annotate   |  only annotation, skips phage identification         |
-  
+    
+
 
 The `basic command` can look like this:
  
