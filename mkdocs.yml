@@ -5,14 +5,16 @@ nav:
         - Quick Installation: installation/quick_installation.md
         - Nextflow: installation/nextflow.md
         - Environment:
-          - Local/Cluster: installation/Environment/conda.md 
+          - Local/Cluster: installation/Environment/environment.md 
         - Engine:
           - Docker: installation/Engine/docker.md
           - Singularity: installation/Engine/singularity.md 
     - Test WtP: test.md
     - Workflow execution:
-        - Overview: Workflow-execution/Overview.md
-        - Commands: Workflow-execution/commands.md
-        - Explaining the Results: Workflow-execution/results.md
+          - Overview: Workflow-execution/Overview.md
+          - Commands: Workflow-execution/commands.md
+          - Explaining the Results: Workflow-execution/results.md
     - Troubleshooting: troubleshooting.md
-theme: readthedocs
+theme: 
+  name: readthedocs  
+  navigation_depth: 1
