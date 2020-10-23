@@ -16,5 +16,5 @@ nav:
           - Explaining the Results: Workflow-execution/results.md
     - Troubleshooting: troubleshooting.md
 theme: 
-  name: readthedocs  
+  name: rtd-dropdown  
 
