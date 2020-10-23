@@ -14,30 +14,30 @@ The execution command:
 ## Flag overview
 |Flag|simple explanation|
 |-|-|
-| --help       |  will show you this page in your terminal
-| **--fasta**  |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'
-| --fastq      |  /path/to/phage-read.fastq *or*  '/path/to/*.fastq'
-| --filter     |  e.g. 1500
-| **-profile** |  local,docker *or* local,singularity *or* lsf,docker
-| **-r**       |  v0.9.0
-| --workdir    |  /path/to/dir
-| --database   |  /path/to/dir
-| --cachedir   |  /path/to/dir
-| --output     |  e.g. results
-| --cores      |  e.g. 10
-| --dv         |  deactivates deepvirfinder
-| --ma         |  deactivates marvel
-| --mp         |  deactivates metaphinder
-| --pp         |  deactivates PPRmeta
-| --sm         |  deactivates sourmash
-| --vb         |  deactivates vibrant
-| --vf         |  deactivates virfinder
-| --vn         |  deactivates virnet
-| --vs         |  deactivates virsorter
-| --ph         |  deactivates phigaro
-| --vs2        |  deactivates virsorter2
-| --identify   |  only phage identification, skips analysis
-| --annotate   |  only annotation, skips phage identification
+| --help       |  will show you this page in your terminal |
+| **--fasta**  |  path/to/phage-assembly.fa *or*  '/path/to/*.fa' |
+| --fastq      |  /path/to/phage-read.fastq *or*  '/path/to/*.fastq' |
+| --filter     |  e.g. 1500 |
+| **-profile** |  local,docker *or* local,singularity *or* lsf,docker |
+| **-r**       |  v0.9.0 |
+| --workdir    |  /path/to/dir |
+| --database   |  /path/to/dir |
+| --cachedir   |  /path/to/dir |
+| --output     |  e.g. results |
+| --cores      |  e.g. 10 |
+| --dv         |  deactivates deepvirfinder |
+| --ma         |  deactivates marvel |
+| --mp         |  deactivates metaphinder |
+| --pp         |  deactivates PPRmeta |
+| --sm         |  deactivates sourmash |
+| --vb         |  deactivates vibrant |
+| --vf         |  deactivates virfinder |
+| --vn         |  deactivates virnet |
+| --vs         |  deactivates virsorter |
+| --ph         |  deactivates phigaro |
+| --vs2        |  deactivates virsorter2 |
+| --identify   |  only phage identification, skips analysis |
+| --annotate   |  only annotation, skips phage identification |
  
 The `basic command` can look like this:
  

@@ -93,16 +93,16 @@ Heatmap for phage sequences visualising the tool agreements per phage positive c
  
 contig  | prediction_value  | predicted_organism_name |
 |-|-|-|
-|pos_phage_0| 1 |gi-1001940386-gb-KU522583.1-__Enterobacteria__phage__ECGD1,__complete__genome
-|pos_phage_1| 1 |gi-1001941262-gb-KU647626.1-__Arthrobacter__phage__KellEzio,__complete__genome
-|pos_phage_2| 1 |gi-1001941379-gb-KU647627.1-__Arthrobacter__phage__Kitkat,__complete__genome
-|pos_phage_3| 1 |gi-1001941506-gb-KU647628.1-__Arthrobacter__phage__Mudcat,__complete__genome
-|pos_phage_4| 1 |gi-1001941623-gb-KU647629.1-__Arthrobacter__phage__BarretLemon,__complete__genome
-|pos_phage_5| 1 |gi-1001941806-gb-KU598975.1-__Staphylococcus__phage__CNPx,__complete__genome
-|pos_phage_6| 1 |gi-1001941908-gb-KU595432.1-__Xanthomonas__phage__f20-Xaj,__complete__genome
-|pos_phage_7| 1 |gi-1001941964-gb-KU595433.1-__Xanthomonas__phage__f30-Xaj,__complete__genome
-|pos_phage_8| 1 |gi-1001942019-gb-KU595434.1-__Xanthomonas__phage__f29-Xaj,__complete__genome
-|pos_phage_9| 1 |gi-1001942081-gb-KT624200.1-__Bacillus__phage__SP-15,__complete__genome
+| pos_phage_0 | 1 | gi-1001940386-gb-KU522583.1-__Enterobacteria__phage__ECGD1,__complete__genome|
+| pos_phage_1 | 1 | gi-1001941262-gb-KU647626.1-__Arthrobacter__phage__KellEzio,__complete__genome|
+| pos_phage_2 | 1 | gi-1001941379-gb-KU647627.1-__Arthrobacter__phage__Kitkat,__complete__genome |
+| pos_phage_3 | 1 | gi-1001941506-gb-KU647628.1-__Arthrobacter__phage__Mudcat,__complete__genome |
+| pos_phage_4 | 1 | gi-1001941623-gb-KU647629.1-__Arthrobacter__phage__BarretLemon,__complete__genome|
+|pos_phage_5| 1 |gi-1001941806-gb-KU598975.1-__Staphylococcus__phage__CNPx,__complete__genome |
+|pos_phage_6| 1 |gi-1001941908-gb-KU595432.1-__Xanthomonas__phage__f20-Xaj,__complete__genome |
+|pos_phage_7| 1 |gi-1001941964-gb-KU595433.1-__Xanthomonas__phage__f30-Xaj,__complete__genome |
+|pos_phage_8| 1 |gi-1001942019-gb-KU595434.1-__Xanthomonas__phage__f29-Xaj,__complete__genome |
+|pos_phage_9| 1 |gi-1001942081-gb-KT624200.1-__Bacillus__phage__SP-15,__complete__genome |
  
  
 --------------------------------------------------

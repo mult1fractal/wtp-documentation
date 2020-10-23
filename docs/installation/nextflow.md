@@ -36,6 +36,3 @@ sudo mv nextflow /usr/bin/
   * under assets you find a file called "nextflow-RELEASENUMBER-all" (replace RELEASENUMBER with the actual number they provide on the release page)
   * download this file and move it to e.g. `/usr/bin/` or call it directly `./nextflow-RELEASENUMBER-all run ...`
   * instead of `nextflow run ...` you do `nextflow-RELEASENUMBER-all run ...`
- 
- 
-
