@@ -15,10 +15,5 @@ nav:
     - About: about.md
 theme: readthedocs
 
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - rust
-    - shell
 
 #copyright: ©2020 nanozoo & mike
