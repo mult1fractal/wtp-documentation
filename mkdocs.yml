@@ -17,4 +17,4 @@ nav:
     - Troubleshooting: troubleshooting.md
 theme: 
   name: readthedocs  
-  collapse_navigation: false
+
