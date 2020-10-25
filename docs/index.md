@@ -52,37 +52,37 @@ Phages are among the most abundant and diverse biological entities on earth. Ide
 -----------------------------------------
 
 ## Included identification tools
-#### MARVEL  
+### MARVEL  
 [Citation](https://www.frontiersin.org/articles/10.3389/fgene.2018.00304/full) [github](https://github.com/LaboratorioBioinformatica/MARVEL#metagenomic-analysis-and-retrieval-of-viral-elements)
 
-#### VirFinder  
+### VirFinder  
 [Citation](https://link.springer.com/epdf/10.1186/s40168-017-0283-5?) [github](https://github.com/jessieren/VirFinder)
 
-#### PPR-Meta  
+### PPR-Meta  
 [Citation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6586199/) [github](https://github.com/zhenchengfang/PPR-Meta)
 
-#### VirSorter  
+### VirSorter  
 [Citation](https://peerj.com/articles/985/) [github](https://github.com/simroux/VirSorter)
 
-#### MetaPhinder  
+### MetaPhinder  
 [Citation](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163111) [github](https://github.com/vanessajurtz/MetaPhinder)
 
-#### DeepVirFinder  
+### DeepVirFinder  
 [Citation](https://arxiv.org/abs/1806.07810) [github](https://github.com/jessieren/DeepVirFinder)
 
-#### Sourmash  
+### Sourmash  
 [Citation](https://joss.theoj.org/papers/10.21105/joss.00027) [github](https://github.com/dib-lab/sourmash)
 
-#### VIBRANT  
+### VIBRANT  
 [Citation](https://www.biorxiv.org/content/biorxiv/early/2019/11/26/855387.full.pdf) [github](https://github.com/AnantharamanLab/VIBRANT)
 
-#### VirNet  
+### VirNet  
 [Citation](https://ieeexplore.ieee.org/document/8639400) [github](https://github.com/alyosama/virnet)
 
-#### Phigaro  
+### Phigaro  
 [Citation](https://www.biorxiv.org/content/10.1101/598243v1) [github](https://github.com/bobeobibo/phigaro)
 
-#### Virsorter2 beta  
+### Virsorter2 beta  
 [github](https://github.com/jiarong/VirSorter2)
 
 
