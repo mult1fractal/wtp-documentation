@@ -1,4 +1,4 @@
-# Example run
+## Example run
 We executed the following commands do perform a WtP test-run:
  
 ```bash

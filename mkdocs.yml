@@ -13,7 +13,7 @@ nav:
     - Workflow execution:
           - Overview: Workflow-execution/Overview.md
           - Commands: Workflow-execution/commands.md
-          - Explaining the Results: Workflow-execution/results.md
+          - Testrun: Workflow-execution/results.md
     - Troubleshooting: troubleshooting.md
 theme: 
   name: rtd-dropdown  
