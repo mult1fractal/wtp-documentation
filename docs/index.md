@@ -2,10 +2,9 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/gcloudChris.svg?style=social)](https://twitter.com/gcloudChris) 
 [![Twitter Follow](https://img.shields.io/twitter/follow/mult1fractal.svg?style=social)](https://twitter.com/mult1fractal)
 
-[](https://case-group.github.io/)
+[CaSe-Group](https://case-group.github.io/)
 
 
-# Preprint:
 > **What the Phage: A scalable workflow for the identification and analysis of phage sequences**
 >
 > M. Marquet, M. Hölzer, M. W. Pletz, A. Viehweger, O. Makarewicz, R. Ehricht, C. Brandt
@@ -17,12 +16,12 @@
 
 
 
- Components | minimum | reccomended 
+| Components | minimum | reccomended |
 |-|-|-|
- OS | Linux (Ubuntu)| Linux (Ubuntu) 
- Cores | 4 | 8 
- Memory | 4 GB RAM | 8 GB RAM 
- Storage | 50 GB available space | 128-256 GB available space 
+| OS | Linux (Ubuntu)| Linux (Ubuntu) |
+| Cores | 4 | 8 |
+| Memory | 4 GB RAM | 8 GB RAM |
+| Storage | 50 GB available space | 128-256 GB available space | 
 
 
 
@@ -30,7 +29,7 @@
 
 -----------------------------------------
 
-# TL;DR
+## TL;DR
 * WtP is a scalable and easy-to-use workflow for phage identification and analysis. Our tool currently combines  9 established phage [identification tools](#included-bioinformatic-tools)  
 * An attempt to streamline the usage of various phage identification and prediction tools  
 * The main focus is stability and data filtering/analysis for the user  
@@ -39,12 +38,12 @@
 
 -----------------------------------------
 
-# What the Phage
+## What the Phage
 Phages are among the most abundant and diverse biological entities on earth. Identification from sequence data is a crucial first step to understand their impact on the environment. A variety of bacteriophage identification tools have been developed over the years. They differ in algorithmic approach, results and ease of use. We, therefore, developed “What the Phage” (WtP), an easy-to-use and parallel multitool approach for phage identification combined with an annotation and classification downstream strategy, thus, supporting the user’s decision-making process when the phage identification tools are not in agreement to each other. WtP is reproducible and scales to thousands of datasets through the use of a workflow manager (Nextflow).
 
 -----------------------------------------
 
-# Under the hood
+## Under the hood
 
 ![plot](figures/wtp-flowchart-simple.png)
 

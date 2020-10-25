@@ -5,7 +5,7 @@ The execution command:
 `nextflow run replikation/What_the_Phage` : calling the workflow
  
 **Part 2** 
-`--flag` : telling WtP what to analyze and how 
+`--flag` : tell WtP what to analyze and how 
  
 **Note:** The order of flags does not matter
  
@@ -43,7 +43,7 @@ The execution command:
     
 
 
-The `basic command` can look like this:
+## The basic command
  
 ```bash
 nextflow run \                   # calling the workflow

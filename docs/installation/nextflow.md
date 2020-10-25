@@ -1,4 +1,4 @@
-## Install Java runtime and Nextflow
+# Install Java runtime and Nextflow
  
 Nextflow is quite easy to install:
  

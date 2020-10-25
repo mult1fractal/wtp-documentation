@@ -1,4 +1,4 @@
-# for local, docker usage
+# Local, docker usage
  
 * "None informaticians / newcomer to bioinformatics" approach using ubuntu [admin rights required] 
 * though we do not recommend this installation-process(an older version of Docker will be installed. This installation method is not suitable for a cluster) it is probably the fastest way to get WtP to run
@@ -15,7 +15,7 @@ sudo usermod -a -G docker $USER
 * Restart your computer
 
 
-# Conda:
+## Conda usage:
 ```bash
 conda create -n wtp nextflow==20.07.01 singularity==3.6
 conda activate wtp
