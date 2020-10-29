@@ -29,8 +29,8 @@ theme:
     - navigation.tabs
   palette:
     scheme: default
-    primary: orange
-    accent: purple
+    primary: purple
+    accent: amber
   font:
     text: Roboto
     code: Roboto Mono
