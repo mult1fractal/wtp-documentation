@@ -9,8 +9,7 @@ nav:
         - Engine:
           - Docker: installation/Engine/docker.md
           - Singularity: installation/Engine/singularity.md 
-    - Test WtP: 
-          - test WtP: test.md
+        - test WtP: installation/test.md
     - Workflow execution:
           - Overview: Workflow-execution/Overview.md
           - Commands: Workflow-execution/commands.md
@@ -19,6 +18,13 @@ nav:
           - Troubleshooting: troubleshooting.md
 theme: 
   name: material
+  highlightjs: true
+  hljs_languages:
+      - yaml
+      - rust
+      - bash
+      - shell
+      - nextflow
   features:
     - navigation.tabs
   palette:

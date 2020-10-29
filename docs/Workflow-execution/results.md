@@ -12,9 +12,10 @@ nextflow run replikation/What_the_Phage \
  
 WtP will create a `results`-folder in your current working dir (where you executed WtP) and a subfolder with the name of your input-fasta - in our case `all_pos_phage`
  
-## results
+## Results
  
-`literature`
+`literature`  
+
 * contains a Citations.bib file which you can import the in your citation program to have all the citations of the programs WtP uses for its analysis
  
 `run info`
@@ -34,7 +35,7 @@ execution_timeline.html:
 * your actual results
  
 --------------------------------------------------
-## all_pos_phage
+## Test sample result
  
 `annotation_results` 
 * output we need for the chromomap

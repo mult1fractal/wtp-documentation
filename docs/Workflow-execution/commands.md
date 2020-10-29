@@ -1,5 +1,4 @@
-# Detailed Flag explanation
- 
+# Detailed Flag explanation  
 * e.g.:
  
 ```shell
@@ -102,7 +101,7 @@ nextflow run replikation/What_the_Phage \
 * `--setup` skips analysis and just downloads all databases and containers
 * Needs roughly 30 GB storage for databases, excluding programs
  
-`nextflow run replikation/What_the_Phage --setup -r v0.9.0`
+`nextflow run replikation/What_the_Phage --setup -r v0.9.0 -profile singularity,local` 
  
 * you can change the database download location via (--databases)
 * make sure that you specify the database location when executing WtP, if you change the default path

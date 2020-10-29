@@ -2,12 +2,10 @@
 
 
 * for docker (local use)
-```shell
-
+```bash
 nextflow run replikation/What_the_Phage -r v0.9.0 --cores 8 -profile smalltest,local,docker
 ```
 * for singularity (slurm use)
-```shell
-
+```bash
 nextflow run replikation/What_the_Phage -r v0.9.0 --cores 8 -profile smalltest,slurm,singularity
 ```
