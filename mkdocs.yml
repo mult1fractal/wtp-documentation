@@ -9,12 +9,14 @@ nav:
         - Engine:
           - Docker: installation/Engine/docker.md
           - Singularity: installation/Engine/singularity.md 
-    - Test WtP: test.md
+    - Test WtP: 
+          - test WtP: test.md
     - Workflow execution:
           - Overview: Workflow-execution/Overview.md
           - Commands: Workflow-execution/commands.md
           - Testrun: Workflow-execution/results.md
-    - Troubleshooting: troubleshooting.md
+    - Troubleshooting: 
+          - Troubleshooting: troubleshooting.md
 theme: 
   name: material
   features:
