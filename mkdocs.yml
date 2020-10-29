@@ -17,4 +17,12 @@ nav:
     - Troubleshooting: troubleshooting.md
 theme: 
   name: material
-
+  features:
+    - navigation.tabs
+  palette:
+    scheme: default
+    primary: orange
+    accent: purple
+  font:
+    text: Roboto
+    code: Roboto Mono
