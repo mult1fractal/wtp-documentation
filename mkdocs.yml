@@ -16,5 +16,5 @@ nav:
           - Testrun: Workflow-execution/results.md
     - Troubleshooting: troubleshooting.md
 theme: 
-  name: readthedocs
+  name: material
 
