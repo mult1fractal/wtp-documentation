@@ -80,3 +80,9 @@ Sometimes the singularity runs fail because some singularity images are failing 
 * or you can run the [Pre-download for Offline-mode](/Workflow-execution/commands/#pre-download-for-offline-mode) and start WtP with the 'preloaded' images  
 
 https://mult1fractal.github.io/WtP.github.io
+
+
+## Download Databases manually
+
+* usually there is no problem with database download.
+* in case there is a problem you can download them [here](https://osf.io/wtfrc/)

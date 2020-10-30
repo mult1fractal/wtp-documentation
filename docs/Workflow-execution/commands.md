@@ -1,18 +1,21 @@
 # Detailed Flag explanation  
+
+<!-- 
 * e.g.:
  
-```shell
-nextflow run replikation/What_the_Phage \
- --fasta '/path/to/*.fasta' \
- -profile local,docker \
- --cores 20 \
- -r v0.8.0 \
- --anno \
- --dv \
- --vf \
- --ma
+```bash
+nextflow run \                   # calling the workflow
+ replikation/What_the_Phage \    # WtP Git-Repo
+ --fasta /path/to/file.fa \      # provide a fasta-file as input
+ --cores 8 \                     # number of cores you want to use
+ -profile local,docker           # choose the environment:local and docker
+ -r v0.9.0                       # WtP release version
+ --identify \                    # run only the identification process
+ --dv \                          # deactivates deepvirfinder
+ --vf \                          # deactivates virfinder
+ --ma                            # deactivates marvel
 ```
- 
+  -->
 -----------------------------------------
  
 ## Inputs
@@ -27,7 +30,8 @@ nextflow run replikation/What_the_Phage \
 * the `fastq` input is currently experimental 
  
 -----------------------------------------
- 
+
+<!--  
 ## Workflow control
 * By default: all included phage identification tools are activated
 * but, you can turn off tools (check `--help` for more)
@@ -52,9 +56,9 @@ nextflow run replikation/What_the_Phage \
  * sequences below the default size: 1500bp will not be analyzed
 ```bash
 --filter             #   minimal contig size [bp] to analyse e.g. --filter 2000
-```
+``` 
+-->
  
------------------------------------------
  
 ## Profiles
 1. Choose the environment: `local`, `slurm`, `lsf` or `ebi`

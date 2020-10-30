@@ -1,15 +1,6 @@
 # Command overview
-The execution command:
  
-**Part 1** 
-`nextflow run replikation/What_the_Phage` : calling the workflow
- 
-**Part 2** 
-`--flag` : tell WtP what to analyze and how 
- 
-**Note:** The order of flags does not matter
- 
- ## The basic command
+## The basic command
  
 ```bash
 nextflow run \                   # calling the workflow
@@ -17,12 +8,12 @@ nextflow run \                   # calling the workflow
  --fasta /path/to/file.fa \      # provide a fasta-file as input
  --cores 8 \                     # number of cores you want to use
  -profile local,docker           # choose the environment:local and docker
- -r v0.9.0                       # WtP release version
+ -r v1.0.0                       # WtP release version
 ```
 
 ## Flag overview  
 
-### mandatory
+### Mandatory
 |Flag          |simple explanation                                    |
 |--------------|------------------------------------------------------|
 | --fasta      |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'     |
@@ -37,8 +28,7 @@ nextflow run \                   # calling the workflow
 | --help       |  will show you this page in your terminal            |
 | --filter     |  e.g. 1500 bp (sequences below 1500 bp won't be analyzed)|
 | --cores      |  e.g. 10                                             |
-
-
+| --setup      |  pre-downloads all you need to run WtP               |
 
 ### Pathing
 
@@ -48,10 +38,9 @@ nextflow run \                   # calling the workflow
 | --database   |  /path/to/dir                                        |
 | --cachedir   |  /path/to/dir                                        |
 | --output     |  e.g. results                                        |
-| --setup      |  pre-downloads all you need to run WtP               |
 
 
-### Workflow Control
+### Workflow control
 
 |Flag          |simple explanation                                    |
 |--------------|------------------------------------------------------|

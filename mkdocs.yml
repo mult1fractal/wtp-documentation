@@ -3,17 +3,18 @@ nav:
     - Home: index.md
     - Installation:
         - Quick Installation: installation/quick_installation.md
-        - Nextflow: installation/nextflow.md
-        - Environment:
-          - Local/Cluster: installation/Environment/environment.md 
-        - Engine:
-          - Docker: installation/Engine/docker.md
-          - Singularity: installation/Engine/singularity.md 
-        - test WtP: installation/test.md
+        - Advanced Installation:
+          - Nextflow: installation/nextflow.md
+          - Environment:
+            - Local/Cluster: installation/Environment/environment.md 
+          - Engine:
+            - Docker: installation/Engine/docker.md
+            - Singularity: installation/Engine/singularity.md 
     - Workflow execution:
           - Overview: Workflow-execution/Overview.md
           - Commands: Workflow-execution/commands.md
-          - Testrun: Workflow-execution/results.md
+          - Terminal : Workflow-execution/processes.md
+          - Testrun: Workflow-execution/results.md        
     - Troubleshooting: 
           - Troubleshooting: troubleshooting.md
 theme: 

@@ -24,9 +24,9 @@
 -----------------------------------------
 # System Requirements
 
-| Components | minimum | reccomended |
+| Components | minimum | recomended |
 |-|-|-|
-| OS | Linux (Ubuntu)| Linux (Ubuntu) |
+| OS | Linux like | Linux like |
 | Cores | 4 | 8 |
 | Memory | 4 GB RAM | 8 GB RAM |
 | Storage | 50 GB available space | 128-256 GB available space | 
@@ -47,7 +47,10 @@ Phages are among the most abundant and diverse biological entities on earth. Ide
 *Figure 3:* This plot shows a simplified dag-chart of WtP for better understanding of what's going on behind the curtain  
 
 -----------------------------------------
-## Included identification tools
+## Included tools
+
+### Identification
+
 Toolname/Gitlink | Reference |
 |-|-|
 [MARVEL](https://github.com/LaboratorioBioinformatica/MARVEL#metagenomic-analysis-and-retrieval-of-viral-elements)|[MARVEL, a Tool for Prediction of Bacteriophage Sequences in Metagenomic Bins](https://www.frontiersin.org/articles/10.3389/fgene.2018.00304/full)
@@ -62,6 +65,25 @@ Toolname/Gitlink | Reference |
 [Phigaro](https://github.com/bobeobibo/phigaro)| [Phigaro: high throughput prophage sequence annotation](https://www.biorxiv.org/content/10.1101/598243v1)
 [Virsorter2 beta](https://github.com/jiarong/VirSorter2)| WIP|
 [Seeker](https://github.com/gussow/seeker)|[Seeker: alignment-free identification of bacteriophage genomes by deep learning](https://doi.org/10.1093/nar/gkaa856)|
+
+### Annotation & classification
+
+|Toolname/Git | Reference|
+|-|-|
+[prodigal](https://github.com/hyattpd/Prodigal)|[Prodigal: prokaryotic gene recognition and translation initiation site identification](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-119)|
+[hmmer](http://hmmer.org/)|[nhmmer: DNA homology search with profile HMMs](https://academic.oup.com/bioinformatics/article/29/19/2487/186765)|
+[chromomap](https://cran.r-project.org/web/packages/chromoMap/vignettes/chromoMap.html)||
+[CheckV](https://bitbucket.org/berkeleylab/checkv/src/master/)|[CheckV: assessing the quality of metagenome-assembled viral genomes](https://www.biorxiv.org/content/10.1101/2020.05.06.081778v1)|
+
+
+### Other tools
+
+|Toolname/Git | Reference|
+|-|-|
+[samtools](https://github.com/samtools/samtools)|[The Sequence Alignment/Map format and SAMtools](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2723002/)|
+[seqkit](https://github.com/shenwei356/seqkit)|[SeqKit: A Cross-Platform and Ultrafast Toolkit for FASTA/Q File Manipulation](https://ieeexplore.ieee.org/document/8639400)|
+[UpSetR](https://github.com/hms-dbmi/UpSetR)|[UpSetR: an R package for the visualization of intersecting sets and their properties](https://doi.org/10.1093/bioinformatics/btx364)|
+
 
 
 <!-- ### MARVEL  
