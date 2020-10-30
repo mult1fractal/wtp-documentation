@@ -2,6 +2,7 @@ WtP can be executed in different environments (workload management platforms)
 
 # Configurations
 
+* providing your own "config" is something we will look into in the future  
 
 ## local 
 

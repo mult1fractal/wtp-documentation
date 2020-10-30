@@ -60,14 +60,16 @@ Docker Engine is installed and running.
 ### Create docker group
 * docker needs to run without sudo for nextflow so we need to add user that want to use docker to the docker group
 
-1. Create the docker group (should be already created after the installation)
+* Create the docker group (should be already created after the installation)
 
 ```shell
 sudo groupadd docker
 ```
 
-2. add a user to the docker group.
+* add a user to the docker group.
 
 ```shell
 sudo usermod -aG docker $USER
 ```
+
+* Restart

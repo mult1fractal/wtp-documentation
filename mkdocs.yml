@@ -13,8 +13,8 @@ nav:
     - Workflow execution:
           - Overview: Workflow-execution/Overview.md
           - Commands: Workflow-execution/commands.md
-          - Terminal : Workflow-execution/processes.md
-          - Testrun: Workflow-execution/results.md        
+          - Testrun : Workflow-execution/processes.md
+          - Results : Workflow-execution/results.md        
     - Troubleshooting: 
           - Troubleshooting: troubleshooting.md
 theme: 

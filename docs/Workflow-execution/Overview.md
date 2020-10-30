@@ -18,7 +18,7 @@ nextflow run \                   # calling the workflow
 |--------------|------------------------------------------------------|
 | --fasta      |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'     |
 | -profile     |  local,docker *or* local,singularity *or* lsf,docker |
-| -r           |  v0.9.0                                              |
+| -r           |  v1.0.0                                              |
 | --fastq      |  alternatively to --fasta (still in development phase)/path/to/phage-read.fastq *or*  '/path/to/*.fastq'  |
 
 ### Options

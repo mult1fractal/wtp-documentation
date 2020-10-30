@@ -1,13 +1,8 @@
 ## Example run
-We executed the following commands do perform a WtP test-run:
+We executed the following commands do perform a WtP test-run from the Terminal-section:
  
 ```bash
-git clone https://github.com/replikation/What_the_Phage.git
-nextflow run replikation/What_the_Phage \
---fasta What_the_Phage/test-data/all_pos_phage.fa \
---profile local,docker \
--work-dir work \
---cores 20
+nextflow run phage.nf -profile smalltest,local,docker --work-dir --cores 16
 ```
  
 WtP will create a `results`-folder in your current working dir (where you executed WtP) and a subfolder with the name of your input-fasta - in our case `all_pos_phage`
@@ -37,7 +32,8 @@ execution_timeline.html:
 --------------------------------------------------
 ## Test sample result
  
-`annotation_results` 
+`annotation_results`  
+
 * output we need for the chromomap
  
 `identified_contigs_by_tools` 
