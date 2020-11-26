@@ -75,7 +75,8 @@ In the end you will get the result
 
 ## Singularity image problems 
 
-Sometimes the singularity runs fail because some singularity images are failing in their build process:     
+Sometimes the singularity runs fail because some singularity images are failing in their build process:   
+
 * you can retry the the execution command  
 * or you can run the [Pre-download for Offline-mode](https://mult1fractal.github.io/wtp-documentation/Workflow-execution/commands/#pre-download-for-offline-mode) and start WtP with the 'preloaded' images  
 
