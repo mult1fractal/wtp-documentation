@@ -93,7 +93,7 @@ nextflow run \                   # calling the workflow
  * It's useful to specify `--workdir` to your current working dir if `/tmp` (default) has limited space
 ```bash
 -work-dir /path/to/dir    # defines the path where nextflow writes temporary files, default: '/tmp/nextflow-phage-$USER'
---database /path/to/dir  # specify download location of databases, default './nextflow-autodownload-databases'
+--databases /path/to/dir  # specify download location of databases, default './nextflow-autodownload-databases'
 --cachedir /path/to/dir   # defines the path where singularity images are cached, default './singularity-images'
 --output results          # path of the outdir, default './results'
 ```
