@@ -21,34 +21,34 @@ With `sudo rm -r / work *` they can become demanding.
 
 ## Docker-files needed and their size
 
-REPOSITORY|TAG|SIZE
-|-|-|-|
-multifractal/template_pandas|v3.8.p|817MB
-nanozoo/rmarkdown|2.10--a3f4088|3.72GB
-papanikos/marvel|0.2-29b3c73|6.42GB
-papanikos/virsorter-2|2.2.1--fa935f8|1.19GB
-multifractal/seeker|0.1|1.66GB
-multifractal/phigaro|0.5.2|2.6GB
-nanozoo/seqkit|0.13.2--cd66104|469MB
-multifractal/virnet-hack|0.1|1.62GB
-nanozoo/emboss|6.6.0--418c521|1.07GB
-multifractal/ppr-meta|0.3.1|5.3GB
-multifractal/virfinder|0.2|3.91GB
-multifractal/vibrant|0.5|1.42GB
-nanozoo/sourmash|3.4.1--16a8db7|788MB
-nanozoo/hmmer|3.3--3db9dd1|484MB
-nanozoo/checkv|0.6.0--e97f45e|1.72GB
-nanozoo/altair|4.1.0--086b80e|1.02GB
-nanozoo/samtools|1.9--76b9270|487MB
-multifractal/virsorter|0.1.2|2.84GB
-nanozoo/r_fungi|0.1--097b1bb|3.11GB
-nanozoo/template|3.8--ccd0653|681MB
-nanozoo/basics|1.0--962b907|79.1MB
-nanozoo/upsetr|1.4.0--0ea25b3|3.21GB
-nanozoo/r_ggplot2|0.1--6405f6d|3.26GB
-multifractal/metaphinder|0.1|767MB
-multifractal/deepvirfinder|0.1|2.37GB
-nanozoo/prodigal|2.6.3--2769024|531MB
+REPOSITORY|TAG|SIZE  
+|-|-|-|  
+multifractal/template_pandas|v3.8.p|817MB  
+nanozoo/rmarkdown|2.10--a3f4088|3.72GB  
+papanikos/marvel|0.2-29b3c73|6.42GB  
+papanikos/virsorter-2|2.2.1--fa935f8|1.19GB  
+multifractal/seeker|0.1|1.66GB  
+multifractal/phigaro|0.5.2|2.6GB  
+nanozoo/seqkit|0.13.2--cd66104|469MB  
+multifractal/virnet-hack|0.1|1.62GB  
+nanozoo/emboss|6.6.0--418c521|1.07GB  
+multifractal/ppr-meta|0.3.1|5.3GB  
+multifractal/virfinder|0.2|3.91GB  
+multifractal/vibrant|0.5|1.42GB  
+nanozoo/sourmash|3.4.1--16a8db7|788MB  
+nanozoo/hmmer|3.3--3db9dd1|484MB  
+nanozoo/checkv|0.6.0--e97f45e|1.72GB  
+nanozoo/altair|4.1.0--086b80e|1.02GB  
+nanozoo/samtools|1.9--76b9270|487MB  
+multifractal/virsorter|0.1.2|2.84GB  
+nanozoo/r_fungi|0.1--097b1bb|3.11GB  
+nanozoo/template|3.8--ccd0653|681MB  
+nanozoo/basics|1.0--962b907|79.1MB  
+nanozoo/upsetr|1.4.0--0ea25b3|3.21GB  
+nanozoo/r_ggplot2|0.1--6405f6d|3.26GB  
+multifractal/metaphinder|0.1|767MB  
+multifractal/deepvirfinder|0.1|2.37GB  
+nanozoo/prodigal|2.6.3--2769024|531MB  
 
 
 -----------------------------------
