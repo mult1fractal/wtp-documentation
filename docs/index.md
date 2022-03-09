@@ -62,7 +62,7 @@ Toolname/Gitlink | Reference |
 [VIBRANT](https://github.com/AnantharamanLab/VIBRANT)|[Automated recovery, annotation and curation of microbial viruses, and evaluation of virome function from genomic sequences](https://www.biorxiv.org/content/biorxiv/early/2019/11/26/855387.full.pdf)
 [VirNet](https://github.com/alyosama/virnet)|[Deep attention model for viral reads identification](https://ieeexplore.ieee.org/document/8639400)
 [Phigaro](https://github.com/bobeobibo/phigaro)| [Phigaro: high throughput prophage sequence annotation](https://www.biorxiv.org/content/10.1101/598243v1)
-[Virsorter2 beta](https://github.com/jiarong/VirSorter2)| WIP|
+[Virsorter2](https://github.com/jiarong/VirSorter2)| [VirSorter2: a multi-classifier, expert-guided approach to detect diverse DNA and RNA viruses](https://escholarship.org/content/qt4d30q22s/qt4d30q22s.pdf?t=qok4nd)]|
 [Seeker](https://github.com/gussow/seeker)|[Seeker: alignment-free identification of bacteriophage genomes by deep learning](https://doi.org/10.1093/nar/gkaa856)|
 
 ### Annotation & classification
