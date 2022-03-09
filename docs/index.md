@@ -29,7 +29,7 @@
 | OS | Linux like | Linux like |
 | Cores | 4 | 8 |
 | Memory | 4 GB RAM | 8 GB RAM |
-| Storage | 50 GB available space | 128-256 GB available space | 
+| Storage | 75 GB available space | 128-256 GB available space | 
 
 [Why so much space? -.-](troubleshooting.md)
 
