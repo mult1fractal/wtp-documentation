@@ -21,6 +21,12 @@ With `sudo rm -r / work *` they can become demanding.
 
 ## Docker-files needed and their size
 
+```bash
+# check size of dockerimages that are needed
+docker images --format "table {{.Repository}}\t{{.Tag}}\t{{.Size}}"
+```
+
+
 |REPOSITORY|TAG|SIZE|  
 |-|-|-|  
 |multifractal/template_pandas|v3.8.p|817MB|  
