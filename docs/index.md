@@ -53,7 +53,6 @@ Phages are among the most abundant and diverse biological entities on earth. Ide
 
 Toolname/Gitlink | Reference |
 |-|-|
-[MARVEL](https://github.com/LaboratorioBioinformatica/MARVEL#metagenomic-analysis-and-retrieval-of-viral-elements)|[MARVEL, a Tool for Prediction of Bacteriophage Sequences in Metagenomic Bins](https://www.frontiersin.org/articles/10.3389/fgene.2018.00304/full)
 [VirFinder](https://github.com/jessieren/VirFinder)|[VirFinder: R package for identifying viral sequences from metagenomic data using sequence signatures](https://link.springer.com/epdf/10.1186/s40168-017-0283-5?)
 [PPR-Meta](https://github.com/zhenchengfang/PPR-Meta)|[PPR-Meta: a tool for identifying phages and plasmids from metagenomic fragments using deep learning](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6586199/)
 [VirSorter](https://github.com/simroux/VirSorter)|[VirSorter: mining viral signal from microbial genomic data](https://peerj.com/articles/985/)
@@ -87,8 +86,6 @@ Toolname/Gitlink | Reference |
 
 
 <!-- ### MARVEL  
-[Citation](https://www.frontiersin.org/articles/10.3389/fgene.2018.00304/full) [github](https://github.com/LaboratorioBioinformatica/MARVEL#metagenomic-analysis-and-retrieval-of-viral-elements)
-
 ### VirFinder  
 [Citation](https://link.springer.com/epdf/10.1186/s40168-017-0283-5?) [github](https://github.com/jessieren/VirFinder)
 

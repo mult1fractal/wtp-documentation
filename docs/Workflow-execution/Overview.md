@@ -8,7 +8,7 @@ nextflow run \                   # calling the workflow
  --fasta /path/to/file.fa \      # provide a fasta-file as input
  --cores 8 \                     # number of cores you want to use
  -profile local,docker           # choose the environment:local and docker
- -r v1.0.0                       # WtP release version
+ -r v1.1.0                       # WtP release version
 ```
 
 ## Flag overview  
@@ -18,8 +18,7 @@ nextflow run \                   # calling the workflow
 |--------------|------------------------------------------------------|
 | --fasta      |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'     |
 | -profile     |  local,docker *or* local,singularity *or* lsf,docker |
-| -r           |  v1.0.0                                              |
-| --fastq      |  alternatively to --fasta (still in development phase)/path/to/phage-read.fastq *or*  '/path/to/*.fastq'  |
+| -r           |  v1.1.0                                              |
 
 ### Options
 
@@ -45,7 +44,6 @@ nextflow run \                   # calling the workflow
 |Flag          |simple explanation                                    |
 |--------------|------------------------------------------------------|
 | --dv         |  deactivates deepvirfinder                           |
-| --ma         |  deactivates marvel                                  |
 | --mp         |  deactivates metaphinder                             |
 | --pp         |  deactivates PPRmeta                                 |
 | --sm         |  deactivates sourmash                                |

@@ -9,7 +9,7 @@ nextflow run \                   # calling the workflow
  --fasta /path/to/file.fa \      # provide a fasta-file as input
  --cores 8 \                     # number of cores you want to use
  -profile local,docker           # choose the environment:local and docker
- -r v0.9.0                       # WtP release version
+ -r v1.1.0                       # WtP release version
  --identify \                    # run only the identification process
  --dv \                          # deactivates deepvirfinder
  --vf \                          # deactivates virfinder
@@ -24,10 +24,7 @@ nextflow run \                   # calling the workflow
 ```bash
 --fasta /path/to/phage-assembly.fa  # path to your fasta-file
 --fasta '/path/to/*.fa'             # path to all .fa files in a dir
---fastq /path/to/phage-read.fastq   # path to your fastq-file
---fastq '/path/to/*.fastq'          # path to all .fastq files in a dir
 ```
-* the `fastq` input is currently experimental 
  
 -----------------------------------------
 
@@ -38,7 +35,6 @@ nextflow run \                   # calling the workflow
  
 ```bash
    --dv             #   deactivates deepvirfinder
-   --ma             #   deactivates marvel
    --mp             #   deactivates metaphinder
    --pp             #   deactivates PPRmeta
    --sm             #   deactivates sourmash
@@ -81,7 +77,7 @@ nextflow run \                   # calling the workflow
    * WtP only downloads a database if it's missing, it is not "auto-updating" them
 * add this flag to your command and a specific release is used instead
 ```bash
--r v1.0.0
+-r v1.1.0
 ```
  
 -----------------------------------------
@@ -105,7 +101,7 @@ nextflow run \                   # calling the workflow
 * `--setup` skips analysis and just downloads all databases and containers
 * Needs roughly 30 GB storage for databases, excluding programs
  
-`nextflow run replikation/What_the_Phage --setup -r v1.0.0 -profile singularity,local` 
+`nextflow run replikation/What_the_Phage --setup -r v1.1.0 -profile singularity,local` 
  
 * you can change the database download location via (--databases)
 * make sure that you specify the database location when executing WtP, if you change the default path

@@ -1,5 +1,5 @@
 # FAQ
-In this section I (mult1fractal) have some troubleshooting advice with problems I faced when I started with bioinformatics and testing with WtP
+In this section I have some troubleshooting advice with problems I faced when I started with bioinformatics and testing with WtP
 
 ## Problems with storage while running WtP
 
@@ -33,7 +33,7 @@ Run WtP on a cluster environment:
  
 **Quick Solution:** 
 
-* "install" WtP via `git clone --branch v1.0.0 https://github.com/replikation/What_the_Phage.git`
+* "install" WtP via `git clone --branch v1.1.0 https://github.com/replikation/What_the_Phage.git`
 * then change the nextflow config and let the user use this "git"  (the version would then be fixed to the git clone)
 * e.g.:
 ````bash
