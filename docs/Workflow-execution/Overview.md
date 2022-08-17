@@ -8,7 +8,7 @@ nextflow run \                   # calling the workflow
  --fasta /path/to/file.fa \      # provide a fasta-file as input
  --cores 8 \                     # number of cores you want to use
  -profile local,docker           # choose the environment:local and docker
- -r v1.1.0                       # WtP release version
+ -r v1.2.0                       # WtP release version
 ```
 
 ## Flag overview  
@@ -18,7 +18,7 @@ nextflow run \                   # calling the workflow
 |--------------|------------------------------------------------------|
 | --fasta      |  path/to/phage-assembly.fa *or*  '/path/to/*.fa'     |
 | -profile     |  local,docker *or* local,singularity *or* lsf,docker |
-| -r           |  v1.1.0                                              |
+| -r           |  v1.2.0                                              |
 
 ### Options
 

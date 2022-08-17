@@ -80,7 +80,7 @@ Run WtP on a cluster environment:
  
 **Quick Solution:** 
 
-* "install" WtP via `git clone --branch v1.1.0 https://github.com/replikation/What_the_Phage.git`
+* "install" WtP via `git clone --branch v1.2.0 https://github.com/replikation/What_the_Phage.git`
 * then change the nextflow config and let the user use this "git"  (the version would then be fixed to the git clone)
 * e.g.:
 ````bash

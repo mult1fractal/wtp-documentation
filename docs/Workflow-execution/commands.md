@@ -37,7 +37,7 @@
 ```
 
 -----------------------------------------
-## Custom phage annotation Database
+## Custom phage annotation database
 
 `--annotation_db` will allow you to provide your own database instead of the default [pvog database](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210652/)  
 

@@ -19,9 +19,9 @@ sudo usermod -a -G docker $USER
 ```bash
 conda create -n wtp nextflow==20.07.01 singularity==3.6.1
 conda activate wtp
-(wtp) $ nextflow run replikation/What_the_Phage -r v1.1.0 --setup ...
+(wtp) $ nextflow run replikation/What_the_Phage -r v1.2.0 --setup ...
 ```
-now you should be able to run `nextflow run replikation/What_the_Phage -r v1.1.0 --setup -profile local,singularity`
+now you should be able to run `nextflow run replikation/What_the_Phage -r v1.2.0 --setup -profile local,singularity`
 
 -------------------------------------------------------
 
@@ -33,9 +33,9 @@ nextflow pull replikation/What_the_Phage
 ```
 * for docker (local use)  
 ```bash
-nextflow run replikation/What_the_Phage -r v1.1.0 --cores 8 -profile smalltest,local,docker
+nextflow run replikation/What_the_Phage -r v1.2.0 --cores 8 -profile smalltest,local,docker
 ```
 * for singularity (slurm use)  
 ```bash
-nextflow run replikation/What_the_Phage -r v1.1.0 --cores 8 -profile smalltest,slurm,singularity
+nextflow run replikation/What_the_Phage -r v1.2.0 --cores 8 -profile smalltest,slurm,singularity
 ```
