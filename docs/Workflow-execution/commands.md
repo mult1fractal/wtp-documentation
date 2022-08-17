@@ -50,7 +50,7 @@
 |custom.hmm.h3m|   
 |custom.hmm.h3p|   
   
-* `tar -czvf custom_db.tar.gz custom.hmm custom.hmm.h3f custom.hmm.h3i custom.hmm.h3m custom.hmm.h3p`
+`tar -czvf custom_db.tar.gz custom.hmm custom.hmm.h3f custom.hmm.h3i custom.hmm.h3m custom.hmm.h3p`
 * with `--annotation_db custom_db.tar.gz` you can provide your own custom phage annotation database 
 
 -----------------------------------------
