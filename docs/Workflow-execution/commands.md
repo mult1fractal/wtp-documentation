@@ -40,12 +40,16 @@
 ## Custom phage annotation Database
 
 `--annotation_db` will allow you to provide your own database instead of the default [pvog database](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210652/)  
-* the files you need for the annotation process (hmmscan), you need the following file types
-  *  custom.hmm  
-  *  custom.hmm.h3f  
-  *  custom.hmm.h3i  
-  *  custom.hmm.h3m  
-  *  custom.hmm.h3p
+* the files you need for the annotation process (hmmscan), you need the following file types  
+
+|needed files|    
+|-|  
+|custom.hmm|  
+|custom.hmm.h3f|   
+|custom.hmm.h3i|   
+|custom.hmm.h3m|   
+|custom.hmm.h3p|   
+  
 * `tar -czvf custom_db.tar.gz custom.hmm custom.hmm.h3f custom.hmm.h3i custom.hmm.h3m custom.hmm.h3p`
 * with `--annotation_db custom_db.tar.gz` you can provide your own custom phage annotation database 
 
