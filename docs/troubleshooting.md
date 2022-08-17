@@ -1,6 +1,14 @@
 # FAQ
 In this section I have some troubleshooting advice with problems I faced when I started with bioinformatics and testing with WtP
 
+
+## Input fasta-file size
+
+* We encountered some WtP long run issues if the file size exceeds a certain size ([see this issue](https://github.com/replikation/What_the_Phage/issues/166)), and WtP seems to be stuck. (maybe very long run times of some tools)  
+* Our fasta.gz testfiles are below below 40 MB in file size  
+* If your fasta files exceed 80 - 100 MB, please split them into smaller chunks  
+
+
 ## Problems with storage while running WtP
 
 WtP produces temporary data.

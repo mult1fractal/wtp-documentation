@@ -41,20 +41,22 @@ nextflow run \                   # calling the workflow
 
 ### Workflow control
 
-|Flag          |simple explanation                                    |
-|--------------|------------------------------------------------------|
-| --dv         |  deactivates deepvirfinder                           |
-| --mp         |  deactivates metaphinder                             |
-| --pp         |  deactivates PPRmeta                                 |
-| --sm         |  deactivates sourmash                                |
-| --vb         |  deactivates vibrant                                 |
-| --vf         |  deactivates virfinder                               |
-| --vn         |  deactivates virnet                                  |    
-| --vs         |  deactivates virsorter                               |
-| --ph         |  deactivates phigaro                                 |
-| --vs2        |  deactivates virsorter2                              |
-| --identify   |  only phage identification, skips analysis           |
-| --annotate   |  only annotation, skips phage identification         |
+|Flag             |simple explanation                                    |
+|--------------   |------------------------------------------------------|
+| --dv            |  deactivates deepvirfinder                           |
+| --mp            |  deactivates metaphinder                             |
+| --pp            |  deactivates PPRmeta                                 |
+| --sm            |  deactivates sourmash                                |
+| --vb            |  deactivates vibrant                                 |
+| --vf            |  deactivates virfinder                               |
+| --vn            |  deactivates virnet                                  |    
+| --vs            |  deactivates virsorter                               |
+| --ph            |  deactivates phigaro                                 |
+| --vs2           |  deactivates virsorter2                              |
+| --identify      |  only phage identification, skips analysis           |
+| --annotate      |  only annotation, skips phage identification         |
+|--all_tools      |  activate all included phage prediction tools        |
+|--annotation_db  |  /path/to/your/custom_phage_annotation_db.tar.gz     |
 
 
 -----------------------------------------

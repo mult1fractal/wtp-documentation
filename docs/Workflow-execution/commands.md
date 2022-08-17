@@ -1,22 +1,19 @@
 # Detailed Flag explanation  
 
-<!-- 
-* e.g.:
- 
-```bash
-nextflow run \                   # calling the workflow
- replikation/What_the_Phage \    # WtP Git-Repo
- --fasta /path/to/file.fa \      # provide a fasta-file as input
- --cores 8 \                     # number of cores you want to use
- -profile local,docker           # choose the environment:local and docker
- -r v1.1.0                       # WtP release version
- --identify \                    # run only the identification process
- --dv \                          # deactivates deepvirfinder
- --vf \                          # deactivates virfinder
- --ma                            # deactivates marvel
-```
-  -->
+
 -----------------------------------------
+
+
+## Run option
+* by default WtP deploys only a selection of phage prediction tools that was benchmarked by [Ho ***et al.***](https://www.biorxiv.org/content/10.1101/2021.04.12.438782v2)
+* if you wish to run all integrated phage prediction tools: 
+```bash
+`--all_tools` # activate all included phage prediction tools
+```
+
+
+-----------------------------------------
+
  
 ## Inputs
 * Input examples:
@@ -28,33 +25,6 @@ nextflow run \                   # calling the workflow
  
 -----------------------------------------
 
-<!--  
-## Workflow control
-* By default: all included phage identification tools are activated
-* but, you can turn off tools (check `--help` for more)
- 
-```bash
-   --dv             #   deactivates deepvirfinder
-   --mp             #   deactivates metaphinder
-   --pp             #   deactivates PPRmeta
-   --sm             #   deactivates sourmash
-   --vb             #   deactivates vibrant
-   --vf             #   deactivates virfinder
-   --vn             #   deactivates virnet
-   --vs             #   deactivates virsorter
-   --ph             #   deactivates phigaro
-   --vs2            #   deactivates virsorter2
-   --identify       #   only phage identification, skips analysis
-   --annotate       #   only annotation, skips phage identification
-```
- 
-* minimal size of contigs for identification
- * sequences below the default size: 1500bp will not be analyzed
-```bash
---filter             #   minimal contig size [bp] to analyse e.g. --filter 2000
-``` 
--->
- 
 
 ## Profiles
 1. Choose the environment: `local`, `slurm`, `lsf` or `ebi`
@@ -65,7 +35,20 @@ nextflow run \                   # calling the workflow
 -profile local,singularity
 -profile lsf,docker
 ```
- 
+
+-----------------------------------------
+## Custom phage annotation Database
+
+`--annotation_db` will allow you to provide your own Database instead of the default [pvog database](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210652/)  
+* the files you need for the annotation process (hmmscan), you need the following file types
+  * custom.hmm  
+  * custom.hmm.h3f  
+  * custom.hmm.h3i  
+  * custom.hmm.h3m  
+  * custom.hmm.h3p
+* `tar -czvf custom_db.tar.gz custom.hmm custom.hmm.h3f custom.hmm.h3i custom.hmm.h3m custom.hmm.h3p`
+* with `--annotation_db custom_db.tar.gz` you can provide your own custom phage annotation database 
+
 -----------------------------------------
  
 ## Release candidate
