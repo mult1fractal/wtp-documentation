@@ -41,7 +41,7 @@
 
 `--annotation_db` will allow you to provide your own database instead of the default [pvog database](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5210652/)  
 
-* the files you need for the annotation process (hmmscan), you need the following file types  
+* you need the following file types for the annotation process (hmmscan),   
 
 |needed files|    
 |-|  
