@@ -19,7 +19,7 @@ For users who run WtP on a cluster and can't restart it, we have the `--work-dir
 This makes it possible to change the storage location for the temporary workflow files.  
 With the flag `--work-dir work`, a folder with the name ` work` will be created in your current working dir.  
 All of WtP temporary workflow files will be stored in this directory.  
-With `sudo rm -r / work *` they can become demanding. 
+With `sudo rm -r current_working_dir/work*` they can become demanding. 
 
 
 ```bash
